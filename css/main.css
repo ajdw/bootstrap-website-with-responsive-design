@@ -1,0 +1,368 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	background-color: lightgrey;
+}
+
+
+/*
+.navbar {
+	font-size: 12pt;
+}
+
+ul {
+	list-style: none;
+
+}
+
+li {
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 30px;
+
+}
+/**************** 
+	Navigation
+*****************/
+
+.logo, .item1, .item2, .item3, .item4 {
+	height: 60px;
+}
+
+.logo {
+	background: red;
+	font-family: 'Pacifico', cursive;
+	font-size: 20pt;
+	padding-bottom: 2px;
+}
+
+.item1, .item2, .item3, .item4 {
+	font-size: 16pt;
+}
+
+#nav {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+#nav p {
+	margin-top: 15px;
+	color: white;
+	text-align: center;
+}
+
+a {
+	color: white;
+	width: 100%;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover{
+	background-color: yellow;
+}
+
+.logo p {
+	margin-top: 10px;
+}
+
+.item1 {
+	background: blue;
+}
+
+.item2 {
+	background: green;
+}
+
+.item3 {
+	background: purple;
+}
+
+.item4 {
+	background: orange;
+}
+
+.item5 {
+	background: yellow;
+}
+
+/**************** 
+	Jumbotron 
+*****************/
+
+#profile-sec h1 {
+	font-family: 'Montserrat', sans-serif;;
+	color: black;
+	font-size: 36pt;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: url("../img/pizza1.png");
+	background-size: 74%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 0px;
+}
+
+.jumbotron h1, .jumbotron p {
+	text-align: center;
+}
+
+.jumbotron h1 {
+	padding-top: 80px;
+	padding-bottom: 20px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-shadow: 1px 1px #000;
+}
+
+#designedBy {
+	color: white;
+	background: red;
+	margin-left: auto;
+	margin-right: auto;
+	width: 330px;
+	text-align: center;
+}
+
+/**************** 
+	Profiles
+*****************/
+.container-fluid {
+	margin-top: -30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #f4ed0e;
+	text-align: center;
+}
+
+#profile-sec .col-sm-4 img {
+	width: 200px;
+	height: 200px;
+}
+
+#profile-sec .caption p {
+	margin-top: 10px;
+}
+/**************** 
+	Designers
+*****************/
+
+#designers .container-fluid {
+	background-color: #ff5a35;
+/*	background-image: url("../img/clouds.jpg");*/
+	background-repeat: no-repeat; 
+	background-size: 2010px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#designers h1 {
+	font-family: 'Montserrat', sans-serif;;
+	color: white;
+	font-size: 36pt;
+	padding-bottom: 30px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+#designers .container-fluid .col-sm-4 .thumbnail img {
+	height: 202px;
+}
+.btn {
+	display: inline;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.panel-footer {
+	text-align: left;
+}
+
+
+/**************** 
+	Contact
+*****************/
+
+#contact .container-fluid {
+	/*background-image: url("../img/grass4.jpg");*/
+	background-color: #fc9b25;
+	background-repeat: no-repeat; 
+	background-size: 1210px;
+	height: 350px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#contact h1 {
+	font-family: 'Montserrat', sans-serif;;
+	color: white;
+	font-size: 36pt;
+	padding-bottom: 30px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+
+#contact .col-xs-3 .img-responsive {
+	width: 170px;
+	padding: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/**************** 
+	Donate
+*****************/
+#donate .container-fluid {
+/*	background-image: url("../img/dirt.jpg");*/
+	background-color: pink;
+	background-repeat: no-repeat; 
+	background-size: 1210px;
+	height: 300px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#donate h1 {
+	font-family: 'Montserrat', sans-serif;;
+	color: white;
+	font-size: 36pt;
+	padding-bottom: 30px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+#donate form .paypal {
+	width: 200px;
+}
+
+/*-----------------------------------------*/
+/* Media Queries */
+/*-----------------------------------------*/
+@media screen and (max-width: 766px) {
+
+.item1, .item2, .item3, .item4, .item5 {
+	display: inline-block;
+	margin: 0px	-2px;
+	width: 192px;
+}
+
+.logo p {
+	display: inline-block;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.item1 p, .item2 p, .item3 p, .item4 p, .item5 p {
+	margin-top: 15px;
+	text-align: center;
+}
+	}
+
+/* iPhone 6 Plus */
+@media screen and (max-width: 414px) {
+
+.item1, .item2, .item3, .item4, .item5 {
+	margin: 0px	 -2px;
+	width: 104px;
+	font-size: 18px;
+	}
+
+.logo p {
+	display: inline-block;
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+	}
+
+/*	Nexus 6P & Nexus 5X */
+@media screen and (max-width: 412px) {
+
+.logo {
+	width: 413px;
+}
+
+.item1, .item2, .item3, .item4, .item5 {
+	display: inline-block;
+	margin: 0px	 -2px;
+	width: 104px;
+	}
+}
+
+/* iPhone 6 */
+@media screen and (max-width: 376px) {
+
+.logo {
+	width: 376px;
+}
+
+.item1, .item2, .item3, .item4, .item5 {
+	display: inline-block;
+	margin: 0px	-2px;
+	width: 94.5px;
+	}
+}
+
+/* Galaxy S5 */
+@media screen and (max-width: 361px) {
+
+
+.logo {
+	width: 361px;
+}
+
+.item1, .item2, .item3, .item4, .item5 {
+	display: inline-block;
+	margin: 0px	-2px;
+	width: 91px;
+	font-size: 12pt;
+}
+
+.item1 p, .item2 p, .item3 p, .item4 p, .item5 p {
+	margin-top: 18px;
+	text-align: center;
+	}
+}
+
+/* iPhone 5 */
+@media screen and (max-width: 321px) {
+
+.logo {
+	width: 321px;
+}
+
+.logo p {
+	display: inline-block;
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.item1, .item2, .item3, .item4, .item5 {
+	display: inline-block;
+	margin: 0px	-2px;
+	width: 81px;
+	font-size: 12pt;
+}
+
+#designedBy {
+	width: 260px;
+}
+
+}
